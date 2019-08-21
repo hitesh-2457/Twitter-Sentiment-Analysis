@@ -13,10 +13,10 @@ visualize the data.
 
 Below is an example of this entire stack setup locally:\
 This Bar graph shows sentiments on "Sports" related tweets as of 27th July 2019:\
-![alt text](https://github.com/hitesh-2457/Twitter-Sentiment-Analysis/KibanaGraphs/SentimentAnalysis.jpg)
+![alt text](https://github.com/hitesh-2457/Twitter-Sentiment-Analysis/blob/master/KibanaGraphs/SentimentAnalysis.jpg)
 
 This Pie graph shows sentiments on "Sports" related tweets as of 27th July 2019:\
-![alt text](https://github.com/hitesh-2457/Twitter-Sentiment-Analysis/KibanaGraphs/SentimentAnalysisPie.jpg)
+![alt text](https://github.com/hitesh-2457/Twitter-Sentiment-Analysis/blob/master/KibanaGraphs/SentimentAnalysisPie.jpg)
 
 Usage:
 ------
