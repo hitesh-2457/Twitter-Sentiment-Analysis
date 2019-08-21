@@ -18,13 +18,19 @@ This Bar graph shows sentiments on "Sports" related tweets as of 27th July 2019:
 This Pie graph shows sentiments on "Sports" related tweets as of 27th July 2019:\
 ![alt text](https://github.com/hitesh-2457/Twitter-Sentiment-Analysis/blob/master/KibanaGraphs/SentimentAnalysisPie.jpg)
 
-Usage:
-------
+Packaging:
+----------
 
+Scala version: 2.11.12 \
+Spark version: 2.4.3 \
 To package the code use sbt->assembly
 
 Twitter Sentiment Analysis
 --------------------------
+
+Note: Update the `src/main/resources/twitter4j.properties` file with appropriate API keys provided by Twitter.
+-----
+
 Usage:
 
 `spark-submit --class TwitterHandler <PathToJarFile> <Kafka-Topic> <Twitter-filter> [more space seperated filter keys]`
@@ -33,6 +39,6 @@ Example:
 
 `spark-submit --class TwitterHandler target\scala-2.11\Kafka-Assignment-assembly-0.1.jar sentiment-analysis sports`
 
-Explaination of command:
-TwitterHandler	this is the spark class name
+Explaination of command: \
+TwitterHandler	this is the spark class name \
 You can add more than one keyword to the argument list after the topic name, the class will be invoked the API endpoint with these filters.
